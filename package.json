@@ -1,0 +1,16 @@
+{
+	"name": "schar",
+	"version": "1.0.0",
+	"description": "Special character list",
+	"main": "index.js",
+	"module": "index.es.js",
+	"repository": "https://github.com/tranvansang/schar",
+	"author": "Tran Sang",
+	"files": [
+		"index.js",
+		"index.es.js",
+		"index.d.ts"
+	],
+	"license": "MIT",
+	"private": false
+}
