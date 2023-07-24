@@ -1,15 +1,21 @@
 {
 	"name": "schar",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Special character list",
 	"main": "index.js",
-	"module": "index.es.js",
 	"repository": "https://github.com/tranvansang/schar",
-	"author": "Tran Sang",
+	"author": "Sang Tran <t@sang.jp>",
+	"exports": {
+		".": {
+			"import": "./index.mjs",
+			"require": "./index.js"
+		}
+	},
 	"files": [
 		"index.js",
-		"index.es.js",
-		"index.d.ts"
+		"index.mjs",
+		"index.d.ts",
+		"index.d.mts"
 	],
 	"license": "MIT",
 	"private": false
